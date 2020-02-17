@@ -1,5 +1,5 @@
 public class ValidateBSTRecursion {
-    public boolean helper(TreeNode node, Integer lower, Integer upper){
+    public boolean helper(TreeNode node, Integer lower, Integer upper){ // note here is using Integer instead of int
         if (node == null) return true;
 
         int val = node.val;
